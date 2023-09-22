@@ -1,0 +1,127 @@
+
+body{
+    background-color:  #2C2B3D;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    font-size: 24px;
+margin-left: -12px;
+margin-right: -13px;
+cursor: pointer;
+transition: 0.2s;
+}
+
+
+
+header {
+    margin: 40px 74px 98px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-right: 99px;
+   padding-left: 99px;
+}
+
+#logo:hover{
+    color: #00BFA6;
+}
+
+ul {
+display: flex;
+gap: 64px;
+text-align: center;
+
+font-size: 14px;
+color: white;
+list-style: none;
+line-height: 28px;
+}
+
+ul li a:hover{
+color: #00BFA6;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+
+}
+
+main{
+    justify-content:space-evenly;
+display: flex;
+align-items: center;
+margin-bottom: 60px;
+
+}
+
+main #mulher-pc{
+    margin-right: 82px;
+margin-left: 99px;
+   }
+
+h1{
+   margin-right: 89px;
+   font-size: 40px;
+   margin-bottom: 59px;
+}
+
+#protegidos{
+    color: #00BFA6;
+}
+
+section p{
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 167px;
+    text-align: center;
+    margin-right: 94px;
+    color: #C2C2C2;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#segurança{
+    color: #00BFA6;
+}
+
+#line{
+    height: 1px;
+    width: 567px;
+    background: #00BFA6;
+line-height: 37px;
+
+
+}
+footer {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+padding-bottom: 23px;
+margin-top: 27px;
+
+}
+
+#insta a
+{cursor: pointer;
+    text-decoration: none;
+color: white; }
+
+#insta a:hover{color: #00BFA6;}
+
+#cadeado-grande{
+    width: 51px;
+height: 62px;
+position: fixed;
+bottom: 20px;
+left: 20px;
+cursor: pointer;
+}
